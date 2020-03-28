@@ -1,2 +1,6 @@
-# armcbride.github.io
-Portfolio
+# Portfolio
+
+# Technologies
+- HTML
+- CSS
+
