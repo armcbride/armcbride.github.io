@@ -18,4 +18,45 @@ h1 {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    box-shadow: 8px 8px 4px #406278;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #5d8aa8;
+    padding: 10px;
+    
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+  }
+  
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   
+  }
+  
+  .item2 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      box-shadow: 8px 8px 4px #406278;
+  }
+  
+  .item3 {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      box-shadow: 8px 8px 4px #406278;
+  
+  }
