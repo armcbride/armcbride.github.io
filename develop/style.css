@@ -38,6 +38,7 @@ ul {
 
 
  /* Page styles  */
+ 
 header,
 main {
  background-color: #5d8aa8;   
@@ -75,6 +76,7 @@ h1 {
   }
   
   .item1 {
+   
     grid-row-start: 1;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -83,6 +85,9 @@ h1 {
   }
   
   .item2 {
+    padding: 20px;
+    margin: 20px; 
+    border: 2px solid #406278;
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 2;
@@ -91,6 +96,9 @@ h1 {
   }
   
   .item3 {
+    padding: 20px;
+    margin: 20px; 
+    border: 2px solid #406278;
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 2;
@@ -103,7 +111,7 @@ h1 {
   /* Projects collapse
    */
    .go-to {
-    background-color:  #6e96b1;
+    background-color:  #5d8aa8;
       color: white;
       cursor: pointer;
       padding: 2px;
@@ -113,24 +121,29 @@ h1 {
       font-size: 15px;
    }
    .collapsible {
-    background-color: #6e96b1;
-    color: white;
+    background-color: #5d8aa8;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 15px;
   }
   
-  .active, .collapsible, .go-to:hover {
+ .collapsible .go-to:hover {
     background-color: #6e96b1;
   }
   
   .content {
+    text-align: center;
     padding: 0 4px;
     display: none;
     overflow: hidden;
     background-color: #5d8aa8;
+  }
+
+  .projects-header {
+      text-align: center;
   }
