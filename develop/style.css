@@ -10,7 +10,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #5d8aa8;
-    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     box-shadow: 4px 4px 2px #406278;
@@ -49,6 +48,17 @@ main {
  box-shadow: 8px 8px 4px #406278;
 }
 
+.footer {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    
+  
+}
 h1 {
     text-align: left;
 }
@@ -63,7 +73,19 @@ h1 {
 p {
     padding: 15px;
     margin: 15px; 
+    font-size: 15px;
   }
+
+h2 {
+  text-align: center;
+}
+.project-title{
+text-decoration: underline;
+}
+
+.contact-links {
+  text-align: center;
+}
 
 /* grid container set-up */
 .grid-container {
@@ -148,7 +170,7 @@ p {
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: center;
+    text-align: left;
     outline: none;
     font-size: 15px;
   }
@@ -165,10 +187,17 @@ p {
     background-color: #5d8aa8;
   }
 
-  h2 {
-      text-align: center;
+  /* contact links */
+ 
+  a:link, a:visited {
+    background-color: #5d8aa8;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
-.project-title{
-    text-decoration: underline;
-}
   
+  a:hover, a:active {
+    background-color: #6e96b1;
+  }
