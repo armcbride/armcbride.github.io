@@ -60,6 +60,12 @@ h1 {
     box-shadow: 8px 8px 4px #406278;
 }
 
+p {
+    padding: 15px;
+    margin: 15px; 
+  }
+
+/* grid container set-up */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -75,15 +81,17 @@ h1 {
     font-size: 18px;
   }
   
+  /* portrait image */
   .item1 {
    
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
    
   }
   
+  /* about me info */
   .item2 {
     
     border: 2px solid #406278;
@@ -93,11 +101,8 @@ h1 {
       grid-column-end: 4;
       box-shadow: 8px 8px 4px #406278;
   }
-  p {
-    padding: 15px;
-    margin: 15px; 
-  }
   
+  /* projects */
   .item3 {
     border: 2px solid #406278;
       grid-row-start: 2;
@@ -108,6 +113,17 @@ h1 {
   
   }
 
+/* contact */
+    .item4{
+        border: 2px solid #406278;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        box-shadow: 8px 8px 4px #406278;
+}
+
+ 
 
   /* Projects collapse
    */
@@ -149,7 +165,7 @@ h1 {
     background-color: #5d8aa8;
   }
 
-  .projects-header {
+  h2 {
       text-align: center;
   }
 .project-title{
