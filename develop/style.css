@@ -152,3 +152,7 @@ h1 {
   .projects-header {
       text-align: center;
   }
+.project-title{
+    text-decoration: underline;
+}
+  
