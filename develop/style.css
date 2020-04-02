@@ -9,10 +9,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #6e96b1;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    box-shadow: 4px 4px 2px #406278;
   }
   
   li {
@@ -21,18 +22,18 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #6e96b1;
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: #6e96b1;
   }
 
 
@@ -97,3 +98,17 @@ h1 {
       box-shadow: 8px 8px 4px #406278;
   
   }
+
+
+  /* Projects collapse
+   */
+   .go-to {
+    background-color:  #6e96b1;
+      color: white;
+      cursor: pointer;
+      padding: 2px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+   }
