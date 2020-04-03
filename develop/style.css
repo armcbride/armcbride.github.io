@@ -38,7 +38,7 @@ ul {
 
  /* Page styles  */
  
-header,
+
 main {
  background-color: #5d8aa8;   
  border: 2px solid #406278;
@@ -57,9 +57,13 @@ main {
     width: 100%;
     font-size: 10px;
     box-shadow: 4px 4px 2px #406278;
-    
-  
+      
 }
+
+.intro{
+  text-align: center;
+}
+
 h1 {
     text-align: left;
 }
@@ -95,6 +99,7 @@ text-decoration: underline;
 .coding-language{
   text-align: center;
 }
+
 
 /* grid container set-up */
 .grid-container {
