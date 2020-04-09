@@ -76,8 +76,8 @@ h1 {
 }
 
 p {
-    padding: 15px;
-    margin: 15px; 
+    padding: 2px;
+    margin: 2px; 
     font-size: 15px;
   }
 
@@ -100,7 +100,25 @@ text-decoration: underline;
   text-align: center;
 }
 
+/* screenshots */
 
+.screenshots {
+width: 300px;
+height: 200px;
+text-align: center;
+}
+
+.refactor, .quiz {
+width: 350px;
+
+}
+.planner {
+  height: 300px;
+}
+
+.dashboard {
+  width: 400px;
+}
 /* grid container set-up */
 .grid-container {
     display: grid;
