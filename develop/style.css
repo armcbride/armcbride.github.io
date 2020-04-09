@@ -116,7 +116,7 @@ width: 350px;
   height: 300px;
 }
 
-.dashboard {
+.dashboard, .readme {
   width: 400px;
 }
 /* grid container set-up */
