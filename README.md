@@ -15,12 +15,12 @@
   My Web Development portfolio
   <hr>
   <div id="tech"><h3>Technology</h3></div>           
-  <p> HTML, CSS, JavaScript</p>
+  <p> HTML, CSS, JavaScript, Bootstrap</p>
   <hr>
   <p><img id="license" align="left" src= "https://img.shields.io/badge/License-MIT-blue"></p><br>
   <hr>
   <div id="screen"><h3>Screenshots</h3></div>
-  <p><img src="./assets/images/port-1.PNG"><img src="./assets/images/port-2.PNG"></p>
+  <p><img src="./assets/img/port-view.PNG"></p>
   <hr>
   <div id="contr"><h3>Contributors</h3> </div>
   <p>armcbride</p> 
